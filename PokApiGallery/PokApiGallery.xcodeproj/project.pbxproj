@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F581294D27EDEC7300646189 /* PokeGalleryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F581294C27EDEC7300646189 /* PokeGalleryCell.swift */; };
+		F58AB81827F044E8001D0F5E /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58AB81727F044E8001D0F5E /* Loader.swift */; };
 		F59B5AFF27EDC5EA000034A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59B5AFE27EDC5EA000034A3 /* AppDelegate.swift */; };
 		F59B5B0127EDC5EA000034A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59B5B0027EDC5EA000034A3 /* SceneDelegate.swift */; };
 		F59B5B0627EDC5EA000034A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F59B5B0427EDC5EA000034A3 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		F581294C27EDEC7300646189 /* PokeGalleryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeGalleryCell.swift; sourceTree = "<group>"; };
+		F58AB81727F044E8001D0F5E /* Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
 		F59B5AFB27EDC5EA000034A3 /* PokApiGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokApiGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F59B5AFE27EDC5EA000034A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F59B5B0027EDC5EA000034A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F58AB81627F044E8001D0F5E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F58AB81727F044E8001D0F5E /* Loader.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		F59B5AF227EDC5EA000034A3 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +72,7 @@
 		F59B5AFD27EDC5EA000034A3 /* PokApiGallery */ = {
 			isa = PBXGroup;
 			children = (
+				F58AB81627F044E8001D0F5E /* Components */,
 				F59B5B2727EDC95E000034A3 /* Controller */,
 				F59B5B2027EDC950000034A3 /* ApiHelper */,
 				F59B5AFE27EDC5EA000034A3 /* AppDelegate.swift */,
@@ -183,6 +194,7 @@
 				F59B5B2427EDC950000034A3 /* PokeApiHelper.swift in Sources */,
 				F59B5AFF27EDC5EA000034A3 /* AppDelegate.swift in Sources */,
 				F59B5B2527EDC950000034A3 /* PokeHelper.swift in Sources */,
+				F58AB81827F044E8001D0F5E /* Loader.swift in Sources */,
 				F59B5B0127EDC5EA000034A3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

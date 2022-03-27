@@ -11,10 +11,13 @@ class pokeViewController: UIViewController {
         super.viewDidLoad()
         collectionGallery.dataSource = self
         collectionGallery.delegate = self
-       
+         ActivityController.shared.showActivityIndicator(uiView: ContainerView)
+                
         PokeAPIHelper.fetchAllImages { [self] images in
             self.arrya = images
             collectionGallery.reloadData()
+            ActivityController.shared.hideActivityIndicator(uiView: ContainerView)
+ 
         }
     }
 
